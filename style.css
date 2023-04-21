@@ -1,0 +1,121 @@
+body{
+  color: #914928;
+  background-color: #462f22;
+  background-image: url("ICONS/noun-flower-4160955.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 500px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ #nome{
+  color: #e25937;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  font-size: 50px;
+
+ }
+ #dev{
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  font-size: 50px;
+ }
+
+ h2{
+  color: #e25937;
+  font-family: 'Inconsolata', monospace;
+  font-size: 40px;
+  position: relative;
+  left: 150px;
+ }
+
+ p{
+  color: #fae08c;
+  font-size: 20px;
+ }
+
+ .avatar{
+  position: relative;
+  left: 350px;
+  top: 30px;
+  border-radius: 50%;
+  width: 280px;
+  height: 300px;
+  }
+
+ .address{
+  font-style: normal;
+  color: #fae08c;
+  position: relative;
+  left: 165px;
+ }
+
+ a{
+  color: #fae08c;
+}
+
+ .html{
+  width: 140px;
+  width: 140px;
+ }
+
+ .css{
+  width: 130px;
+  width: 130px;
+ }
+
+ .js{
+  width: 180px;
+  width: 180px;
+ }
+
+ .python{
+  width: 120px;
+  width: 140px;
+ }
+
+ .phone{
+  width: 22px;
+  width: 22px;
+ }
+
+ .email{
+  width: 22px;
+  width: 22px;
+ }
+
+ .location{
+  width: 22px;
+  width: 22px;
+ }
+
+ .linkedin{
+  width: 22px;
+  width: 22px;
+ }
+
+ .github{
+  width: 22px;
+  width: 22px;
+ }
+
+ .lang{
+  width: 50px;
+  width: 50px;
+ }
+
+ .bloco-left{
+  display: relative;
+  left: 300px;
+  width: 50%;
+  float: left;
+  font-size: 20px;
+ }
+
+ .bloco-right{
+  position: relative;
+  top: 385px;
+  right: 100px;
+  float: right;
+  font-size: 17px;
+  } 
