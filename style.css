@@ -13,7 +13,8 @@ body{
   background-image: url(./ICONS/noun-flower-4160955.png);
   background-repeat: no-repeat;
   background-position: top right;
-   background-size: 400px;
+  background-size: 400px;
+ 
  }
 
  .bloco-left{
@@ -28,7 +29,6 @@ body{
   left: 58%;
   width: 40%;
   font-size: 17px;
-  text-align: justify;
   } 
 
  #nome{
@@ -136,12 +136,14 @@ body{
     background-image: none;
     overflow-x: hidden;
 }
+
  h1{
   text-align: center;
 
  }
+
  p{
-  text-align: justify;
+  /* text-align: justify; */
  }
 
  .bloco-left{
@@ -153,7 +155,7 @@ body{
  }
  .bloco-right{
   position: absolute;
-  top: 126%;
+  top: 155%;
   left: 5%;
   width: 99%;
   font-size: 17px;
@@ -177,4 +179,5 @@ body{
   display: flex;
   left: 16%;
 }
+
 }
