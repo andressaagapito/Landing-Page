@@ -1,121 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+*{
+  box-sizing: border-box;
+}
+
 body{
-  color: #914928;
-  background-color: #462f22;
-  background-image: url("ICONS/noun-flower-4160955.png");
+  background-color: #d9dadf;
+  font-size: 20px;
+  background-image: url(./ICONS/noun-flower-4160955.png);
   background-repeat: no-repeat;
   background-position: top right;
-  background-size: 500px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-size: 400px;
  }
 
+ .bloco-left{
+  display: relative;
+  width: 50%;
+  font-size: 22px;
+ }
+
+ .bloco-right{
+  position: absolute;
+  top: 60%;
+  left: 58%;
+  width: 40%;
+  font-size: 17px;
+  } 
+
  #nome{
-  color: #e25937;
+  color:#202124;
   font-family: 'Roboto Mono', monospace;
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
 
  }
  #dev{
   font-family: 'Amatic SC', cursive;
   text-align: center;
-  font-size: 50px;
+  font-size: 25px;
+  color: #4f5057;
  }
 
  h2{
-  color: #e25937;
-  font-family: 'Inconsolata', monospace;
-  font-size: 40px;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
   position: relative;
-  left: 150px;
+  left: 20%;
  }
 
  p{
-  color: #fae08c;
+  color: #3d3312;
   font-size: 20px;
+  font-family: 'Roboto', sans-serif;
  }
 
  .avatar{
   position: relative;
-  left: 350px;
-  top: 30px;
+  left: 35%;
+  margin-top: 5%;
   border-radius: 50%;
   width: 280px;
   height: 300px;
   }
 
+  .avatar:hover{
+    opacity: 0.9;
+  }
+
  .address{
   font-style: normal;
-  color: #fae08c;
-  position: relative;
-  left: 165px;
+  color: black;
  }
 
  a{
-  color: #fae08c;
+  color: #3d3312;
+  text-decoration: none;
 }
 
+.ingles{
+  display: flex;
+  flex-flow: row wrap;
+  text-indent: 10px;
+}
  .html{
-  width: 140px;
-  width: 140px;
+
+  width: 100px;
  }
 
  .css{
-  width: 130px;
-  width: 130px;
+
+  width: 90px;
  }
 
  .js{
-  width: 180px;
-  width: 180px;
- }
 
- .python{
-  width: 120px;
-  width: 140px;
+  width: 130px;
  }
-
  .phone{
-  width: 22px;
+
   width: 22px;
  }
 
  .email{
-  width: 22px;
+
   width: 22px;
  }
 
  .location{
-  width: 22px;
+
   width: 22px;
  }
 
  .linkedin{
   width: 22px;
-  width: 22px;
  }
 
  .github{
   width: 22px;
-  width: 22px;
  }
 
  .lang{
-  width: 50px;
-  width: 50px;
+  width: 40px;
+  height: 30px;
+ }
+
+@media screen and (max-width: 600px){
+  body{
+    height: 400px;
+    width: 400px;
+    background-image: none;
+}
+ h1{
+  text-align: center;
+
  }
 
  .bloco-left{
-  display: relative;
-  left: 300px;
-  width: 50%;
-  float: left;
-  font-size: 20px;
+  position: relative;
+  left: 10%;
+  width: 99%;
+  font-size: 17px;
+ }
+ .bloco-right{
+  position: absolute;
+  top: 160%;
+  left: 10%;
+  width: 99%;
+  font-size: 17px;
  }
 
- .bloco-right{
-  position: relative;
-  top: 385px;
-  right: 100px;
-  float: right;
-  font-size: 17px;
-  } 
+ .address{
+  font-style: normal;
+  color: black;
+  align-items: center;
+ }
+
+ a{
+  color: #3d3312;
+  text-decoration: none;
+}
+#nome{
+  font-size: 30px;
+}
+.avatar{
+  display: flex;
+  left: 30%;
+}
+}
