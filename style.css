@@ -13,7 +13,7 @@ body{
   background-image: url(./ICONS/noun-flower-4160955.png);
   background-repeat: no-repeat;
   background-position: top right;
-  background-size: 400px;
+   background-size: 400px;
  }
 
  .bloco-left{
@@ -28,6 +28,7 @@ body{
   left: 58%;
   width: 40%;
   font-size: 17px;
+  text-align: justify;
   } 
 
  #nome{
@@ -38,7 +39,6 @@ body{
 
  }
  #dev{
-  font-family: 'Amatic SC', cursive;
   text-align: center;
   font-size: 25px;
   color: #4f5057;
@@ -78,13 +78,12 @@ body{
 
  a{
   color: #3d3312;
-  text-decoration: none;
 }
 
 .ingles{
   display: flex;
   flex-flow: row wrap;
-  text-indent: 10px;
+  text-indent: 50px;
 }
  .html{
 
@@ -124,6 +123,8 @@ body{
  }
 
  .lang{
+  position: absolute;
+  top: 78%;
   width: 40px;
   height: 30px;
  }
@@ -133,10 +134,14 @@ body{
     height: 400px;
     width: 400px;
     background-image: none;
+    overflow-x: hidden;
 }
  h1{
   text-align: center;
 
+ }
+ p{
+  text-align: justify;
  }
 
  .bloco-left{
@@ -144,13 +149,15 @@ body{
   left: 10%;
   width: 99%;
   font-size: 17px;
+
  }
  .bloco-right{
   position: absolute;
-  top: 160%;
-  left: 10%;
+  top: 126%;
+  left: 5%;
   width: 99%;
   font-size: 17px;
+
  }
 
  .address{
@@ -161,13 +168,13 @@ body{
 
  a{
   color: #3d3312;
-  text-decoration: none;
 }
+
 #nome{
   font-size: 30px;
 }
 .avatar{
   display: flex;
-  left: 30%;
+  left: 16%;
 }
 }
