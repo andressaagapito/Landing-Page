@@ -129,55 +129,14 @@ body{
   height: 30px;
  }
 
-@media screen and (max-width: 600px){
+ @media screen and (min-width:0px) and (max-width: 760px){ 
   body{
-    height: 400px;
-    width: 400px;
     background-image: none;
-    overflow-x: hidden;
-}
+  }
+  .bloco-right{
+    position: relative;
+    left: 0%;
 
- h1{
-  text-align: center;
-
+  }
  }
-
- p{
-  /* text-align: justify; */
- }
-
- .bloco-left{
-  position: relative;
-  left: 10%;
-  width: 99%;
-  font-size: 17px;
-
- }
- .bloco-right{
-  position: absolute;
-  top: 155%;
-  left: 5%;
-  width: 99%;
-  font-size: 17px;
-
- }
-
- .address{
-  font-style: normal;
-  color: black;
-  align-items: center;
- }
-
- a{
-  color: #3d3312;
-}
-
-#nome{
-  font-size: 30px;
-}
-.avatar{
-  display: flex;
-  left: 16%;
-}
-
-}
+ 
